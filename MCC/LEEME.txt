@@ -1,0 +1,12 @@
+Ejemplo de ejecución en la BD desde huellero1:
+
+echo "SELECT num_minucias, xyt from tbdescriptors WHERE id=5" | mysql -h 69.69.69.201 -P 3307 -u test -p1waxzsq2. -D descriptors
+
+
+Ejemplo de compilacion:
+
+make
+
+Ejemplo de Ejecución:
+
+mcc_match -N 8 -C LSSR < huellas_iguales.txt
